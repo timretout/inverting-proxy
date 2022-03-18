@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian
+FROM debian:11.2
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y -qq --no-install-recommends \
